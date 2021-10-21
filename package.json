@@ -1,0 +1,29 @@
+{
+  "name": "euromillion-generate",
+  "version": "1.0.0",
+  "description": "A simple CLI to generate euro-millions values that you cant try to wine a EURO MILLION lottery",
+  "main": "src/index.js",
+	"bin": "src/index.js",
+  "author": "Nuno Tavares Andrade",
+  "license": "MIT",
+	"keywords": [
+		"cli",
+		"euromillions",
+		"lottery"
+	],
+	"scripts": {
+		"start": "node src/index.js"
+	},
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nunatass/euromillion-generate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nunatass/euromillion-generate/issues"
+	},
+	"homepage": "https://github.com/nunatass/euromillion-generate/#readme"
+
+}
